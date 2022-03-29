@@ -1,0 +1,11 @@
+.admin-container{
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+  .search-input{
+    margin: 15px;
+    padding: 5px;
+    width: 20%;
+  }

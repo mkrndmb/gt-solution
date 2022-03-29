@@ -1,0 +1,54 @@
+.userlist{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.list{
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.list-header{
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+  }
+
+  .btn-cont{
+      display: flex;
+      width: 90vw;
+      justify-content: flex-start;
+      margin: 10px;
+  }
+
+  .delete-btn{
+    margin-right: 50px;
+    border-radius: 10px;
+    background: rgb(228, 100, 100);
+    color: lightcyan;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    margin-left: 30px;
+  }
+
+  .page-cont{
+    flex:0.8
+  }
+  .page-button{
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: 1px solid #CFD2DC;
+    background-color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.current{
+    background-color: rgb(236, 230, 230);
+}

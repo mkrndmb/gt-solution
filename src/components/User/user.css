@@ -1,0 +1,54 @@
+.user {
+    border: 1px solid #CFD2DC;
+    min-height: 7vh;
+    width: 90vw;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+
+    /* padding-left: 50px; */
+  }
+  
+  .action{
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    text-align: left;
+    width: 20%;
+    
+  }
+
+  .delete-icon{
+    color: red;
+  }
+
+  input[type="checkbox"]{
+    cursor: pointer;
+    text-align: left;
+  }
+
+  .input-check{
+    
+    width: 20%
+  }
+
+  .checked{
+    background-color: rgb(236, 230, 230);
+  }
+  .name{
+    
+    width: 20%;
+    text-align: left;
+  }
+  .email{
+    
+    width: 20%;
+    text-align: left;
+  }
+  .role{
+    
+    width: 20%;
+    text-align: left;
+  }
